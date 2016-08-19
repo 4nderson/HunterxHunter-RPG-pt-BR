@@ -112,6 +112,7 @@ def atributos(Talento_1, Talento_2, Talento_3, Pericia_1, Pericia_2, Pericia_3,P
 ###PREENCHIMENTO DE DADOS COM AS VARIAVEIS E APRESENTAÇÃO DO SCRIPT AO CLIENTE
 
 def main():
+	os.system("touch savemgame.txt")
 	print("olá!")
 	time.sleep(0.3)
 	print(":)")
