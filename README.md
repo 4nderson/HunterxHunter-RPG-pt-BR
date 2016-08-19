@@ -4,7 +4,11 @@ LEMBRANDO QUE FOI ESCRITO EM PYTHON EM GNU/LINUX, OU SEJA, ALGUNS COMANDOS VÃO 
 caso voce esteja no windows, baixe o python do site --> https://www.python.org/
 No linux ja vem nativo.
 
-Usuario de Windows deve fazer modificações em "os.system("clear") " para --> "os.system("cls")" e em "os.system("touch savegame.txt") para --> "os.system("copy NUL savegame.txt")" e "os.system("rm savegame.txt")" para --> "os.system("DEL savegame.txt")"
+Usuario de Windows deve fazer modificações em "os.system("clear") " para --> "os.system("cls")" 
+"os.system("touch savegame.txt") --> "os.system("copy NUL savegame.txt")" 
+e em "os.system("touch savegame.txt") para --> "os.system("copy NUL savegame.txt")"        (São 2 comandos iguais no script)
+
+e "os.system("rm savegame.txt")" para --> "os.system("DEL savegame.txt")"
 
 Lembrando que isso é apenas temporario e recebera atualização para funcionar corretamente em sistemas Windows!
 rode o script direto do arquivo para poder funcionar tudo certo!
